@@ -1,0 +1,87 @@
+@extends('layout')
+@section('header')
+    @include('components.header',['title' => 'Config'])
+@endsection
+@section('content')
+    <div class="kt-subheader kt-grid__item" id="kt_subheader">
+        <div class="kt-subheader__main">
+            <h3 class="kt-subheader__title">
+                @lang('product::contract.index.contract')
+            </h3>
+            <span class="kt-subheader__separator kt-subheader__separator--v"></span>
+            <div class="kt-subheader__group" id="kt_subheader_search">
+                <span class="kt-subheader__desc" id="kt_subheader_total"> </span>
+
+            </div>
+            <div class="kt-subheader__group kt-hidden" id="kt_subheader_group_actions">
+
+            </div>
+        </div>
+        <div class="kt-subheader__toolbar">
+            {{--@include('helpers.button', ['button' => [--}}
+                {{--'route' => 'product.product-attribute-group.create',--}}
+                {{--'html' => '<a href="'.route('product.product-attribute-group.create').'" class="btn btn-label-brand btn-bold">'--}}
+                {{--.__('product::attribute-group.index.btn_add_attribute').--}}
+            {{--'</a>'--}}
+            {{--]])--}}
+        </div>
+    </div>
+    <!--begin: Datatable -->
+    <div class="kt-content  kt-grid__item kt-grid__item--fluid nt_content" id="kt_content">
+        <div class="kt-portlet kt-portlet--tabs">
+            <div class="kt-portlet__body">
+                <form id="form-filter" action="{{route('product.contract')}}">
+                    <div class="row">
+                        <div class="form-group col-lg-3">
+                            <input class="form-control" type="text" id="keyword_customer_contract$contract_no"
+                                   name="keyword_customer_contract$contract_no"
+                                   placeholder="@lang('product::attribute-group.index.search')"
+                                   value="{{$filter['keyword_customer_contract$contract_no']}}">
+                        </div>
+                        <div class="form-group col-lg-3">
+                            <select name="customer_contract$status" style="width: 100%"
+                                    id="customer_contract$status" class="form-control ss-select-2">
+                                <option value="">
+                                    @lang('product::contract.index.status')
+                                </option>
+                                <option value="new" {{$filter['customer_contract$status'] == 'new' ? 'selected' : ''}}>
+                                    @lang('product::contract.index.new')
+                                </option>
+                                <option value="waiting_sign" {{$filter['customer_contract$status'] == 'waiting_sign' ? 'selected' : ''}}>
+                                    @lang('product::contract.index.waiting_sign')
+                                </option>
+                                <option value="waiting_approved" {{$filter['customer_contract$status'] == 'waiting_approved' ? 'selected' : ''}}>
+                                    @lang('product::contract.index.waiting_approved')
+                                </option>
+                                <option value="approved" {{$filter['customer_contract$status'] == 'approved' ? 'selected' : ''}}>
+                                    @lang('product::contract.index.approved')
+                                </option>
+                                <option value="approved_cancel" {{$filter['customer_contract$status'] == 'approved_cancel' ? 'selected' : ''}}>
+                                    @lang('product::contract.index.approved_cancel')
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-3">
+                            <a class="btn btn-secondary btn-hover-brand" href="{{route('product.contract')}}">
+                                @lang('product::attribute-group.index.remove')
+                            </a>
+                            <button type="submit"
+                                    class="btn btn-primary btn-hover-brand">
+                                @lang('core::admin-menu.input.BUTTON_SEARCH')
+                            </button>
+                        </div>
+                    </div>
+                    <div class="kt-section">
+                        @include('product::contract.list')
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+@endsection
+@section('after_script')
+    <script type="text/javascript" src="{{ asset('static/backend/js/product/contract/script.js?v='.time()) }}"></script>
+<script>
+
+</script>
+@endsection

@@ -1,0 +1,79 @@
+// Styling icon
+.page-section { padding: 100px 0; }
+
+body { padding-top: 88px; color: $gray-400; }
+.block-center { margin-top: auto; margin-bottom: auto; }
+hr { width: 60px; border-width: 3px; border-color: $primary;  margin-top: 20px; margin-bottom: 20px;  }
+.text-muted { color: #444!important; margin-bottom: 30px;}
+.box-shadow { box-shadow: 0px 12px 48px #0000000F; }
+.title-4 { font-family: 'Segoe UI bold'; font-size: 36px; }
+.title-5 { font-family: 'Segoe UI bold'; font-size: 18px; margin: 16px 0; }
+/*icon*/
+.icon { display: inline-block; background-size: cover; background-position: center; background-repeat: no-repeat; }
+.icon-use { width: 64px; height: 64px; background-image: url(../img/photo/icon-use.png);  }
+.icon-bill {width: 64px; height: 64px; background-image: url(../img/photo/icon-bill.png);  }
+.icon-clear { width: 64px; height: 64px; background-image: url(../img/photo/icon-clear.png); }
+.icon-global { width: 64px; height: 64px; background-image: url(../img/photo/icon-global.png); }
+.icon-cooperate {  width: 72px; height: 64px; background-image: url(../img/photo/icon-cooperate.png);}
+.icon-global-1 { width: 64px; height: 64px; background-image: url(../img/photo/icon-global-1.png); }
+.icon-setting {  width: 64px; height: 64px; background-image: url(../img/photo/icon-setting.png);}
+.icon-connect { width: 70px; height: 64px; background-image: url(../img/photo/icon-connect.png); }
+.icon-cloud { width: 64px; height: 64px; background-image: url(../img/photo/icon-cloud.png); }
+
+
+
+.icon-virtual-d-c { width: 100px; height: 100px; background-image: url(../img/photo/icon-VirtualServer.svg); }
+.icon-backup { width: 100px; height: 100px; background-image: url(../img/photo/icon-Backup.svg); }
+.icon-DRaaS { width: 100px; height: 100px; background-image: url(../img/photo/icon-DRaaS.svg); }
+.icon-virtual-s { width: 100px; height: 100px; background-image: url(../img/photo/icon-VirtualServer.svg); }
+.icon-replication { width: 100px; height: 100px; background-image: url(../img/photo/icon-replication.svg); }
+.icon-app { width: 100px; height: 100px; background-image: url(../img/photo/icon-app.svg); }
+
+
+
+
+.over-left {  position: relative; z-index: 1; display: flex; height: 100%; }
+.over-left img { margin: auto; display: block; }
+
+/*art-1 */
+.art-1 h3 { color: $secondary; font-size: 48px;  font-family: 'Segoe UI Bold'; }
+.art-1 hr, .art-2 hr { margin-left: 0; }
+
+/*art-2*/
+.art-2 { }
+
+
+/*art-3 */
+.art-3 { padding: 50px; cursor: pointer; padding-right: 100px; }
+
+
+/*art-4*/
+.art-4 { padding: 50px; border: 2px solid #F6F6F6; border-radius: 6px; margin-top: 30px; }
+
+
+/*list-customer*/
+.list-customer  { list-style: none; text-align: center; }
+.list-customer li { display: inline-block; list-style: none; margin: 30px 10px 0 10px;  }
+
+
+
+
+
+
+
+
+
+@media (min-width: 1366px) {
+    .container {
+         max-width: 1220px;
+    }
+}
+@media (min-width: 1366px) {
+
+    .main-nav .container {
+        max-width: 1366px;
+    }
+}
+
+
+

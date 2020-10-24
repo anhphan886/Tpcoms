@@ -1,0 +1,52 @@
+<?php
+
+return [
+    // index
+    'admin_group' => 'Nhóm quyền',
+    'admin_group_name' => 'Tên nhóm quyền',
+    'admin_group_description' => 'Ghi chú',
+    'create_admin_group' => 'Tạo nhóm quyền',
+    'edit_admin_group' => 'Chỉnh sửa nhóm quyền',
+    'detail_admin_group' => 'Thông tin chi tiết',
+//    'detail_admin_group' => 'Chỉnh sửa nhóm quyền',
+    'add_user_into_admin_group' => 'Giao quyền cho nhân viên',
+    'data_null' => 'Không tìm thấy dữ liệu',
+    'edit' => 'Chỉnh sửa',
+    'add_user_into_group' => 'Giao quyền cho nhân viên',
+    'remove' => 'Xóa',
+    'create_success' => 'Thêm thành công',
+    'create_failed' => 'Thêm thất bại',
+    'edit_success' => 'Cập nhật thành công',
+    'edit_failed' => 'Cập nhật thất bại',
+
+    // table
+    'add_admin_group' => 'Thêm nhóm quyền',
+    'add_user' => 'Thêm user',
+    'user_list' => 'Danh sách user',
+    'user_full_name' => 'Họ tên',
+    'user_email' => 'Email',
+    'add_admin_menu' => 'Thêm menu items',
+    'admin_menu' => 'Menu items',
+    'admin_menu_name' => 'Tên menu',
+    'admin_menu_position' => 'Vị trí',
+    'add_admin_action' => 'Thêm quyền truy cập',
+    'admin_action' => 'Quyền truy cập',
+    'admin_action_name' => 'Tên quyền',
+    'admin_action_group_name' => 'Nhóm function',
+
+    // input
+    'button_remove' => 'Xóa',
+    'button_search' => 'Tìm kiếm',
+    'button_add_new' => 'Thêm mới',
+    'button_close' => 'Đóng',
+    'button_add' => 'Thêm',
+    'button_edit' => 'Chỉnh sửa thông tin',
+    'button_save' => 'Lưu và thoát',
+    'button_save_continue' => 'Lưu và tiếp tục',
+    'button_save_create' => 'Lưu và tạo mới',
+    'button_cancel' => 'Hủy',
+    'placeholder_name' => 'Hãy nhập tên nhóm quyền',
+    'placeholder_description' => 'Hãy nhập mô tả nhóm quyền',
+    'select_all' => 'Tất cả',
+    'button_reset' => 'Reset',
+];

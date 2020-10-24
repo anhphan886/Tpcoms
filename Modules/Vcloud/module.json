@@ -1,0 +1,14 @@
+{
+    "name": "Vcloud",
+    "alias": "vcloud",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Vcloud\\Providers\\VcloudServiceProvider",
+        "Modules\\Vcloud\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

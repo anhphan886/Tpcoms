@@ -1,0 +1,26 @@
+.form-control-feedback {
+    color: red;
+}
+.note-editor, .note-toolbar, .note-editor .note-editing-area {
+    position: static;
+}
+.pn-pointer {
+    cursor: pointer;
+}
+.info-bar {
+    padding: 10px;background: #ebedf2;
+}
+.btn_yes {
+    color: #fff !important;
+    background-color: #5d78ff !important;
+    border-color: #5d78ff !important;
+}
+.btn_cancel{
+    background: transparent;
+    color: #a7abc3;
+    border: 1px solid #e8ecfa;
+}
+.ss--word-break{
+    word-break: break-all !important;
+    height: auto !important;
+}

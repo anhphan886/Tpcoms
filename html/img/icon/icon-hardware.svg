@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005fc5"/>
+      <stop offset="1" stop-color="#004fa3"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_521" data-name="Rectangle 521" width="64" height="64" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_53" data-name="Mask Group 53" clip-path="url(#clip-path)">
+    <g id="vacuum-cleaner" transform="translate(0.18 4.259)">
+      <path id="Path_13111" data-name="Path 13111" d="M62.659,64.11a1.16,1.16,0,0,0,1.16-1.16V46.937a1.16,1.16,0,0,0-1.16-1.16H19.494V19.865a3.094,3.094,0,1,0-2.321,0V45.776H1.16A1.16,1.16,0,0,0,0,46.937V62.95a1.16,1.16,0,0,0,1.16,1.16H10.99v1.856H1.16A1.16,1.16,0,0,0,0,67.127v5.134a1.16,1.16,0,0,0,1.16,1.16h61.5a1.16,1.16,0,0,0,1.16-1.16V67.127a1.16,1.16,0,0,0-1.16-1.16h-9.83V64.11h9.83ZM18.333,16.225A.774.774,0,1,1,17.56,17,.774.774,0,0,1,18.333,16.225ZM45,48.1v9.515H35.065V48.1Zm-42.678,0H32.744V58.772a1.16,1.16,0,0,0,1.16,1.16H46.159a1.16,1.16,0,0,0,1.16-1.16V48.1H61.5V61.789H2.321V48.1ZM61.5,71.1H2.321V68.287H61.5Zm-10.99-5.134H13.31V64.11h37.2Z" transform="translate(0 -13.904)" fill="url(#linear-gradient)"/>
+      <path id="Path_13112" data-name="Path 13112" d="M241.831,251.841a3.094,3.094,0,1,0-3.094-3.094A3.1,3.1,0,0,0,241.831,251.841Zm0-3.868a.774.774,0,1,1-.774.774A.774.774,0,0,1,241.831,247.973Z" transform="translate(-201.799 -209.796)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: USER
+ * Date: 11/18/2019
+ * Time: 5:22 PM
+ */
+return [
+    'index' => [
+        'contract' => 'Contract list',
+        'status' => 'Status',
+        'stt' => '#',
+        'contract_code' => 'Contract code',
+        'customer' => 'Customer',
+        'province' => 'Province',
+        'file_contract' => 'Contract file',
+        'sign' => 'Sign',
+        'upload_file_scan' => 'Upload file scan',
+        'contract_date' => 'Contract date',
+        'action' => 'Action',
+        'new' => 'New',
+        'waiting_sign' => 'Waiting sign',
+        'waiting_approved' => 'Waiting approved',
+        'approved' => 'Approved',
+        'approved_cancel' => 'Approved cancel',
+        'cancel' => 'Cancel',
+        'approved_action' => 'Approve',
+        'file_contract_example' => 'Contract file example',
+    ],
+    'tab' => [
+        'contract' => 'Contract',
+        'service' => 'Service',
+        'invoice' => 'Invoice',
+        'pay' => 'Pay',
+    ],
+    'service' => [
+        'stt' => '#',
+        'service_code' => 'Service code',
+        'payment_type' => 'Payment type',
+        'quantity' => 'Number of months of use',
+        'price' => 'Price',
+        'amount' => 'Into money',
+        'type' => 'Type',
+        'status' => 'Status',
+        'actived' => 'Actived',
+        'not_actived' => 'Unactivated',
+        'spending' => 'Spending',
+        'cancel' => 'Cancel',
+    ],
+    'invoice' => [
+        'stt' => '#',
+        'invoice_no' => 'Invoice code',
+        'status' => 'Status',
+        'amount' => 'Amount',
+        'invoice_by' => 'Created by',
+        'invoice_at' => 'Date of invoice',
+    ],
+    'order' => [
+        'stt' => '#',
+        'order_code' => 'Order code',
+        'total' => 'Total',
+        'discount' => 'Discount',
+        'vat' => 'Vat',
+        'amount' => 'Amount',
+        'voucher_code' => 'Voucher code',
+        'order_status_id' => 'Status',
+    ],
+    'detail' => [
+        'status' => 'Status',
+        'contract_code' => 'Contract code',
+        'customer' => 'Customer',
+        'province' => 'Province',
+        'file_contract' => 'File contract',
+        'sign' => 'Sign',
+        'contract_date' => 'Contract date',
+        'new' => 'New',
+        'waiting_sign' => 'Waiting sign',
+        'waiting_approved' => 'Waiting approve',
+        'approved' => 'Approved',
+        'approved_cancel' => 'Cancel',
+        'detail' => 'Detail',
+        'created_at' => 'Created at',
+        'created_by' => 'Created by',
+        'cancel' => 'Cancel',
+
+    ],
+];

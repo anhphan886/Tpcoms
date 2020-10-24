@@ -1,0 +1,9 @@
+.slick-top { overflow: hidden; }
+.slick-top .full-height { height:  calc(100vh - 88px); display: flex; }
+.slick-top .block-center { margin: auto; }
+.slick-top .block-center .col-md-6 { display: flex; }
+.slick-top .block-center .col-md-6 .art-1 { margin-top: auto; margin-bottom: auto; }
+
+.slick-top .slick-dots { bottom: 50px; }
+.slick-top .slick-dots li button:before { font-size: 10px; color: $gray-300; opacity: 1; }
+.slick-top .slick-dots li.slick-active button:before { color: $primary; }

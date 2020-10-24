@@ -1,0 +1,60 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Sinh
+ * Date: 12/25/2019
+ * Time: 11:08 AM
+ */
+
+return [
+    'dashboard' => 'Trang chủ',
+    'order' => 'Đơn hàng',
+    'of_day' => 'Trong ngày',
+    'customer' => 'Khách hàng',
+    'service' => 'Dịch vụ',
+    'ticket_support' => 'Ticket hỗ trợ',
+    'ticket' => 'Ticket',
+    'expired' => 'Hết hạn 30 ngày',
+    'order_day' => 'ĐƠN HÀNG TRONG NGÀY',
+    'customer_day' => 'KHÁCH HÀNG TRONG NGÀY',
+    'enter_keyword' => 'Nhập thông tin tìm kiếm',
+    'order_code' => 'Mã đơn hàng',
+    'package' => 'Gói',
+    'created_at' => 'Ngày khởi tạo',
+    'created_by' => 'Người tạo',
+    'voucher' => 'Mã giảm giá',
+    'amount' => 'Tổng tiền (VNĐ)',
+    'status' => 'Trạng thái',
+    'customer_code' => 'Mã khách hàng',
+    'cmnd_mst' => 'CMND / MST',
+    'type' => 'Loại',
+    'province' => 'Tỉnh / thành phố',
+    'district' => 'Quận / huyện',
+    'customer_personal' => 'Cá nhân',
+    'customer_enterprise' => 'Doanh nghiệp',
+    'new' => 'Mới',
+    'verified' => 'Đã xác minh',
+    'month' => 'Tháng',
+    'all' => 'Tất cả',
+    'choose_day' => 'Chọn ngày',
+    'top_service' => 'Top 10 dịch vụ',
+    'order_by_status' => 'Đơn hàng theo trạng thái',
+    'expire_not_canceled' => 'Dịch vụ hết hạn nhưng chưa hủy',
+    'expire_to_day' => 'Dịch vụ hết hạn hôm nay',
+    'expire_7_day' => 'Dịch vụ hết hạn 7 ngày',
+    'expire_30_day' => 'Dịch vụ hết hạn 30 ngày',
+    'service_category' => 'Loại dịch vụ',
+    'status_tt' => 'Tình trạng',
+    'actived_date' => 'Ngày kích hoạt',
+    'expired_date' => 'Ngày hết hạn',
+    'action' => 'Hành động',
+    'real' => 'Dùng thật',
+    'trial' => 'Dùng thử',
+    'receipt_exported' => 'PT được xuất',
+    'receipt_exported2' => 'PHIẾU THU ĐƯỢC XUẤT TRONG NGÀY',
+    'invoice_need_exported' => 'HĐ cần xuất',
+    'invoice_need_exported2' => 'HÓA ĐƠN CẦN XUẤT TRONG NGÀY',
+    'receipt' => 'Phiếu thu',
+    'invoice' => 'Hóa đơn',
+
+];

@@ -1,0 +1,29 @@
+.main-nav { background: $white; box-shadow: 0 0 5px #ddd; }
+.main-nav .navbar-nav-right .nav-item a { color: $secondary; }
+.main-nav .navbar-nav-last .nav-item a.btn { padding-left: 0px; padding-right: 20px; color: $primary; }
+.main-nav .navbar-nav-last .nav-item a.btn-outline { padding-left: 30px; padding-right: 30px; }
+.main-nav .navbar-nav-last .nav-item a.btn:hover { color: $secondary; }
+.main-nav .navbar-nav-last .nav-item a.btn-outline:hover { color: $white; }
+
+@media (min-width: 992px) {
+    .main-nav.navbar-expand-lg .navbar-nav-right .nav-link {
+        padding-right: 25px;
+        padding-left: 25px; font-size: 18px;  font-family: 'Segoe UI Semibold';
+    }
+    .main-nav.navbar-expand-lg .navbar-nav-left .nav-link {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .main-nav .dropdown-menu { border: 0; background: none; padding-top: 20px; border-radius: 0; }
+    .main-nav .inner-menu { box-shadow: 2px 2px 4px #eee; border: 0; background:#fff;}
+    .main-nav .navbar-nav-right .inner-menu .dropdown-item { height: 48px; line-height: 48px; padding-top: 0; padding-bottom: 0;  border-radius: 0; position: relative; color: $gray-400; }
+    .main-nav .navbar-nav-right .inner-menu .dropdown-item:hover { color: $primary; background: none;  }
+    .main-nav .navbar-nav-right .inner-menu .dropdown-item:after { position: absolute; left: 0; top: 50%; height: 50%; width: 4px; background:$white; content: ""; margin-top: -12px; }
+    .main-nav .navbar-nav-right .inner-menu .dropdown-item:hover:after { background: $primary;  }
+    .main-nav .navbar-nav-right > .nav-item:hover .nav-link, .main-nav .navbar-nav-right > .nav-item.show .nav-link {  color: $primary; }
+    .main-nav .navbar-nav-left .inner-menu .dropdown-item { padding-left: 5px; padding-right: 0; }
+    .main-nav .navbar-nav-left .inner-menu .dropdown-item:hover { background: none; }
+    .main-nav .navbar-nav-left .inner-menu { box-shadow: none; }
+    .main-nav .ml-left { margin-left: 20px; }
+}

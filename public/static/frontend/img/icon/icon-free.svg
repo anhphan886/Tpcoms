@@ -1,0 +1,9 @@
+<svg id="Artboard-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005fc5"/>
+      <stop offset="1" stop-color="#004fa3"/>
+    </linearGradient>
+  </defs>
+  <path id="circle-no-forbidden-outline-stroke" d="M876.347,129.379a29.219,29.219,0,0,1,41.274,41.274Zm-1.967,1.967a29.219,29.219,0,0,0,41.274,41.274ZM864,151a32,32,0,1,1,32,32A32,32,0,0,1,864,151Z" transform="translate(-864 -119)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

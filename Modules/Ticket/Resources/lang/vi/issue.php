@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'index' => [
+        'list_issue' => 'Danh sách yêu cầu',
+        'issue_name' =>'Tên yêu cầu',
+        'issue' => 'Yêu cầu',
+        'issue_create' => 'Thêm yêu cầu',
+        'issue_edit' => 'Chỉnh sửa yêu cầu',
+        'issue_name_vi' => 'Yêu cầu (tiếng Việt)',
+        'issue_name_en' => 'Yêu cầu (tiếng Anh)',
+        'issue_group' => 'Nhóm yêu cầu',
+        'queue' => 'Queue xử lý',
+        'issue_level_id' => 'Cấp độ sự cố',
+        'process_time' => 'Thời gian xử lý (Giờ)',
+        'crictical_time2' => 'Mức 1 (Giờ)',
+        'crictical_time3' => 'Mức 2 (Giờ)',
+        'crictical_time4' => 'Mức 3 (Giờ)',
+        'select_creator' => 'Chọn người tạo',
+        'select_creation_date' => 'Chọn ngày tạo',
+        'select_element_group' => 'Chọn nhóm phần tử',
+    ],
+    'input' => [
+        'button_add' => 'Thêm yêu cầu',
+        'button_create' => 'Tạo',
+        'button_save' => 'Lưu',
+        'button_cancel' => 'Hủy',
+        'select_placeholder_issue_group_id' => 'Chọn nhóm yêu cầu',
+        'select_placeholder_issue_id' => 'Chọn yêu cầu',
+        'select_placeholder_queue_id' => 'Chọn queue xử lý',
+        'select_placeholder_issue_level_id' => 'Chọn cấp độ sự cố',
+        'button_save_create' => 'Lưu và tiếp tục',
+        'button_save_exit' => 'Lưu và thoát',
+
+    ],
+    'info' => [
+        'create_success' => 'Thêm thành công',
+        'create_failed' => 'Thêm thất bại',
+        'update_success' => 'Cập nhật thành công',
+        'update_failed' => 'Cập nhật thất bại',
+    ],
+    'table' => [
+        'issue_group' => 'Nhóm  yêu cầu',
+        'issue' => 'Yêu cầu',
+        'level' => 'Cấp độ',
+        'created_date' => 'Ngày tạo',
+        'created_by' => 'Người tạo',
+        'updated_date' => 'Ngày cập nhật',
+        'updated_by' => 'Người cập nhật',
+        'action' => 'Hành động',
+    ],
+];
