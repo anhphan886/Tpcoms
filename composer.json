@@ -15,6 +15,7 @@
         "laravel/tinker": "^1.0",
         "lord/laroute": "^2.4",
         "maatwebsite/excel": "^3.1",
+        "mrgswift/laravel-encryptenv": "^1.0",
         "nwidart/laravel-modules": "^6.0",
         "pear/http_request2": "^2.3",
         "tymon/jwt-auth": "1.0.*",
@@ -48,7 +49,8 @@
         "classmap": [
             "database/seeds",
             "database/factories"
-        ]
+        ],
+        "files": ["app/Helpers/secEnv.php"]
     },
     "autoload-dev": {
         "psr-4": {

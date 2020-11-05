@@ -29,11 +29,11 @@ class SendEmailsWarning extends Command
      * @return void
      */
     public function __construct(
-        TicketRepositoryInterface $ticket
+        // TicketRepositoryInterface $ticket
     )
     {
         parent::__construct();
-        $this->ticket = $ticket;
+        // $this->ticket = $ticket;
     }
 
     /**

@@ -18,6 +18,7 @@ class Kernel extends ConsoleKernel
         'App\Console\Commands\SendMailJob',
         'App\Console\Commands\BillingJob',
         'App\Console\Commands\BlockService',
+        'App\Console\Commands\EncryptEnvValues'
     ];
 
     /**
